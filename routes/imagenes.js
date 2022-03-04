@@ -16,6 +16,6 @@ app.get('/:tipo/:img', (req, res, next) => {
         res.sendFile(pathNoImagen);
     }
     
-});
+ });
 
 module.exports = app;
